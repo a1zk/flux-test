@@ -9,7 +9,7 @@ spec:
     kind: GitRepository
     name: flux-system
   path: ./infrastructure/kyverno
-  prune: true
+  prune: false
   wait: true
   timeout: 3m
 ---
